@@ -1,0 +1,41 @@
+@import "./home.scss";
+
+html{
+  background: #000507;
+  font-size: 16px;
+
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  // background-color: white;
+}
+
+  .pulse {
+    margin-top: 16rem;
+    margin-left: 40rem;
+    width: 100px;
+    height: 100px;
+    background-color: #9a68d3;
+    border-radius: 100%;
+    animation: sk-pulse 1.2s infinite cubic-bezier(0.455, 0.03, 0.515, 0.955); 
+  }
+  
+  @keyframes sk-pulse {
+    0% {
+      transform: scale(0); 
+    } 100% {
+      transform: scale(1);
+      opacity: 0; 
+    }
+  }
+  
+  .click{
+    color: #fff;
+    top: 5rem;
+  }
+
+  
